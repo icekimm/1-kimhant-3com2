@@ -44,7 +44,7 @@ ___
 
 	ຮູບພາບອຸປະກອນຕົວຈິງ:
 	
-	![breadboard | 500](breadboard.jpg)
+	![breadboard | 500](image/breadboard.jpg)
 		
 	ຮູບອຸປະກອນແບບ Schematic Diagram :
 	
@@ -119,7 +119,7 @@ ___
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
 	![led|500](image/led.jpg )
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![led|500](led_pinout.png )
+	![led|500](image/led_pinout.png )
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	**Status Indicator:** ໃຊ້ໄຟສີແດງເພື່ອຊີ້ບອກວ່າລະບົບປິດຢູ່ ແລະ ສີຂຽວເພື່ອຊີ້ບອກວ່າລະບົບເປີດຢູ່.
     
@@ -128,9 +128,9 @@ ___
 	**ການໃຊ້ງານຂອງອຸປະກອນ:** RGB LED ແມ່ນການລວມເອົາໄຟ LED ສາມດອກ (ແດງ, ຂຽວ, ຟ້າ) ໄວ້ໃນກ່ອງດຽວ. ມັນເຮັດວຽກໂດຍອີງໃສ່ຫຼັກການປະສົມສີແບບເພີ່ມ (Additive Color Mixing). ໂດຍການຄວບຄຸມຄວາມເຂັ້ມຂອງແສງສາມສີຫຼັກນີ້, ມັນສາມາດຜະລິດສີທີ່ແຕກຕ່າງກັນໄດ້ຫຼາຍລ້ານສີ.
 	
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![RGB|500](RGB.jpg)
+	![RGB|500](image/RGB.jpg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![RGB|500](RGB_pin.png)
+	![RGB|500](image/RGB_pin.png)
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **RGB Mood Light:** ໃຊ້ PWM ຂອງ Arduino ເພື່ອຄວບຄຸມຄວາມເຂັ້ມຂອງສີແດງ, ສີຂຽວ, ແລະ ສີຟ້າ ຂອງ RGB LED ເພື່ອສ້າງສີປະສົມທີ່ແຕກຕ່າງກັນ.
 
@@ -141,9 +141,9 @@ ___
 	2. **ແບ່ງແຮງດັນ (Voltage Divider):** ໃຊ້ສອງຕົວຕ້ານທານຮ່ວມກັນເພື່ອຫຼຸດແຮງດັນລົງ.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:**
-	![resistor|400](resistor.jpg)
+	![resistor|400](image/resistor.jpg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![resistor|400](resistor_schematic.png|500)
+	![resistor|400](image/resistor_schematic.png|500)
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	**LED Protection:** ຕໍ່ຕົວຕ້ານທານ 220Ω ກັບ LED ເພື່ອປ້ອງກັນບໍ່ໃຫ້ LED ເສຍຫາຍ.   
 	
@@ -152,9 +152,9 @@ ___
 	**ການໃຊ້ງານຂອງອຸປະກອນ:** ປຸ່ມກົດເຮັດໜ້າທີ່ເປັນອຸປະກອນຮັບເຂົ້າ (Input) ທີ່ປິດ ຫຼື ເປີດວົງຈອນຊົ່ວຄາວ. ເມື່ອກົດປຸ່ມ, ມັນຈະເຮັດໃຫ້ກະແສໄຟຟ້າໄຫຼ ຫຼື ຢຸດໄຫຼ ເຊິ່ງ Arduino ສາມາດອ່ານການປ່ຽນແປງສະຖານະນີ້ໄດ້ຜ່ານຂາ Digital Input.
 	
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![plush button|400](plush_button.jpg |400)
+	![plush button|400](image/plush_button.jpg |400)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![button|400](button_pin.png)
+	![button|400](image/button_pin.png)
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Control Light:** ໃຊ້ປຸ່ມກົດເພື່ອເປີດ/ປິດໄຟ LED.
 	- **Mode Selector:** ໃຊ້ປຸ່ມກົດຫຼາຍອັນເພື່ອເລືອກໂໝດການເຮັດວຽກທີ່ແຕກຕ່າງກັນສຳລັບໂປຣເຈັກ.
@@ -164,9 +164,9 @@ ___
 	**ການໃຊ້ງານຂອງອຸປະກອນ:** Potentiometer ແມ່ນຕົວຕ້ານທານທີ່ສາມາດປັບຄ່າໄດ້. ໃນການນຳໃຊ້ກັບ Arduino, ມັນມັກຖືກໃຊ້ເປັນ **Voltage Divider** ເພື່ອຜະລິດສັນຍານແຮງດັນອະນາລັອກທີ່ປ່ຽນແປງໄດ້ (ຈາກ 0V ຫາ 5V) ໃຫ້ Arduino ອ່ານຄ່າຜ່ານຂາ Analog Input. ຜູ້ໃຊ້ສາມາດປັບຄ່າໄດ້ໂດຍການໝູນປຸ່ມ.
 	
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![potentiometer|400](potentiometer.jpeg)
+	![potentiometer|400](image/potentiometer.jpeg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![potentiometer|400](Potentiometer_schematic.png)
+	![potentiometer|400](image/Potentiometer_schematic.png)
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	**Input Control:** ໃຊ້ເພື່ອຄວບຄຸມຄວາມສະຫວ່າງຂອງ LED (ໂດຍການປັບຄ່າ PWM) ຫຼື ຄວາມໄວຂອງມໍເຕີ.
     
@@ -177,9 +177,9 @@ ___
 	**Active Buzzer:** ໃຊ້ສຳລັບສັນຍານເຕືອນ ຫຼື ສຽງແຈ້ງເຕືອນແບບງ່າຍໆ (ເຊັ່ນ: ສຽງ Beep ເມື່ອມີຂໍ້ຜິດພາດ). ເຊື່ອມຕໍ່ກັບຂາ Digital ຂອງ Arduino ເພື່ອເປີດ/ປິດ.
 	
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![buzzer|400](buzzer.jpeg)
+	![buzzer|400](image/buzzer.jpeg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![buzzer|400](buzzer-pinout.jpg|400)
+	![buzzer|400](image/buzzer-pinout.jpg)
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	**Alarm System:** ໃຊ້ Active Buzzer ເພື່ອສົ່ງສັນຍານເຕືອນເມື່ອເຊັນເຊີກວດພົບການເຄື່ອນໄຫວ.
 
@@ -190,9 +190,9 @@ ___
 	    
 	
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![buzzer|400](buzzer.jpeg)
+	![buzzer|400](image/buzzer.jpeg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![buzzer|400](buzzer-pinout.jpg)
+	![buzzer|400](image/buzzer-pinout.jpg)
 		
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	**Playing Music:** ໃຊ້ Passive Buzzer ເພື່ອຫຼິ້ນເພງງ່າຍໆໂດຍການປ່ຽນຄວາມຖີ່ຂອງສັນຍານທີ່ປ້ອນເຂົ້າ.
@@ -204,9 +204,9 @@ ___
 	**ການໃຊ້ງານຂອງອຸປະກອນ:** ຈໍ LCD 16x2 ໃຊ້ສຳລັບການສະແດງຜົນຂໍ້ຄວາມສັ້ນໆ (16 ຕົວອັກສອນຕໍ່ແຖວ, ສອງແຖວ). ມັນເປັນອຸປະກອນ Output ທີ່ສຳຄັນສຳລັບການສະແດງຄ່າຈາກເຊັນເຊີ, ສະຖານະພາບຂອງລະບົບ ຫຼື ຂໍ້ຄວາມຂອງຜູ້ໃຊ້ໂດຍກົງ. ເນື່ອງຈາກມັນໃຊ້ຂາຫຼາຍ (6-11 ຂາ) ໃນການເຊື່ອມຕໍ່ກັບ Arduino, ມັນມັກຈະຖືກໃຊ້ຄູ່ກັບ **I2C Serial Adapter Board** ເພື່ອຫຼຸດການໃຊ້ຂາຂອງ Arduino ລົງເຫຼືອພຽງ 2 ຂາ (SDA, SCL).
 
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![buzzer|400](buzzer.jpeg)
+	![buzzer|400](image/buzzer.jpeg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![buzzer|400](buzzer-pinout.jpg)
+	![buzzer|400](image/buzzer-pinout.jpg)
 
 
 	**ຕົວຢ່າງການນຳໃຊ້:**
@@ -219,9 +219,9 @@ ___
 	**ການໃຊ້ງານຂອງອຸປະກອນ:** ໂມດູນນີ້ມີ IC ຂັບ (ເຊັ່ນ: PCF8574) ທີ່ເຮັດໜ້າທີ່ປ່ຽນການສື່ສານແບບ Parallel ຂອງຈໍ LCD ໃຫ້ເປັນການສື່ສານແບບອະນຸກົມ **I2C (Inter-Integrated Circuit)**. ການໃຊ້ໂມດູນນີ້ຈະຫຼຸດຈຳນວນຂາທີ່ຕ້ອງເຊື່ອມຕໍ່ຈາກ Arduino ໄປຫາ LCD ຈາກ 7-11 ຂາ ລົງເຫຼືອພຽງ **4 ຂາ** (VCC, GND, SDA, SCL), ເຊິ່ງຊ່ວຍປະຢັດຂາ I/O ຂອງ Arduino ໄວ້ສຳລັບອຸປະກອນອື່ນໆ.
 	
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![12c|400](12C_Serial_adapter_board.png)
+	![12c|400](image/12C_Serial_adapter_board.png)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**		
-	![12c|400](12c_schematic.jpg)
+	![12c|400](image/12c_schematic.jpg)
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Minimal Wiring Project:** ເຊື່ອມຕໍ່ຈໍ LCD ກັບ Arduino ໂດຍໃຊ້ພຽງ 4 ສາຍເພື່ອປະຫຍັດຂາ I/O.
@@ -234,9 +234,9 @@ ___
 - ການຄວບຄຸມ: ຕ້ອງໃຊ້ 8 ຂາ Digital Output ຂອງ Arduino ເພື່ອຄວບຄຸມ Segment ທັງໝົດ, ເຊິ່ງມັກຈະໃຊ້ IC ຂັບ (ເຊັ່ນ: 74HC595) ເພື່ອຫຼຸດການໃຊ້ຂາ.
     
 **ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-![|400](Seven_segment.jpg )
+![|400](image/Seven_segment.jpg )
 **ຮູບອຸປະກອນແບບ Schematic Diagram:**	
-![|400](7_segment_schematic.jpg)
+![|400](image/7_segment_schematic.jpg)
 **ຕົວຢ່າງການນຳໃຊ້:**
 - **Simple Counter:** ສະແດງຕົວເລກນັບຂຶ້ນ ຫຼື ນັບລົງ.
 - **Game Score:** ສະແດງຄະແນນໃນເກມແບບງ່າຍໆ.
@@ -246,9 +246,9 @@ ___
 	**ການໃຊ້ງານຂອງອຸປະກອນ:** ໃຊ້ສຳລັບການສະແດງຜົນຕົວເລກ 4 ຫຼັກ. ເພື່ອໃຫ້ສາມາດສະແດງຜົນ 4 ຫຼັກໄດ້ພ້ອມກັນ, ມັນໃຊ້ເທັກນິກທີ່ເອີ້ນວ່າ **Multiplexing** (ການເປີດ-ປິດຫຼັກຕ່າງໆຢ່າງໄວວາ), ເຮັດໃຫ້ຕາຂອງຄົນເຫັນຄືກັບວ່າສະແດງຜົນພ້ອມກັນຕະຫຼອດເວລາ.
 	
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|400](4-Digit_7-Segment_Display.jpg )
+	![|400](image/4-Digit_7-Segment_Display.jpg )
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**	
-	![|400](4-Digit-7-Segment_Display_schematic.jpg)
+	![|400](image/4-Digit-7-Segment_Display_schematic.jpg)
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Digital Clock/Timer:** ສະແດງຊົ່ວໂມງ ຫຼື ເວລານັບຖອຍຫຼັງ.
@@ -259,9 +259,9 @@ ___
 	**ການໃຊ້ງານຂອງອຸປະກອນ:** ຈໍ 8x8 Dot Matrix ໃຊ້ສຳລັບການສະແດງຜົນຮູບພາບ, ຮູບແບບ (Patterns), ຂໍ້ຄວາມແບບເລື່ອນ (Scrolling Text) ຫຼື ຮູບພາບແບບ Pixel Art ທີ່ມີຄວາມລະອຽດຕ່ຳ. ເຮັດວຽກໂດຍການຄວບຄຸມແຕ່ລະຈຸດ (Pixel) ໃນຕາໜ່າງ 8x8 ໂດຍແຍກກັນ.
 	
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|400](8x8_Dot_Matrix_display.jpeg )
+	![|400](image/8x8_Dot_Matrix_display.jpeg )
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![|400](8x8-LED-Matrix-Pins.png)
+	![|400](image/8x8-LED-Matrix-Pins.png)
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Scrolling Text:** ສະແດງຂໍ້ຄວາມຂະໜາດສັ້ນແບບເລື່ອນໄປມາ.
 	- **Simple Animation:** ສ້າງພາບເຄື່ອນໄຫວງ່າຍໆ ຫຼື ຮູບພາບ Pixel Art.
@@ -274,9 +274,9 @@ ___
 	**ການໃຊ້ງານຂອງອຸປະກອນ:** DHT11 ໃຊ້ສຳລັບວັດແທກຄ່າອຸນຫະພູມ (Temperature) ແລະ ຄວາມຊຸ່ມຊື່ນສຳພັດ (Relative Humidity) ຂອງອາກາດອ້ອມຂ້າງ. ມັນສົ່ງຂໍ້ມູນອອກມາເປັນສັນຍານດິຈິຕອລ (Digital Signal) ພຽງ 1 ສາຍ, ເຮັດໃຫ້ການເຊື່ອມຕໍ່ງ່າຍຂຶ້ນ.
 	
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|400](dht11.jpg )
+	![|400](image/dht11.jpg )
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![|400](dht11-pinout.jpg)
+	![|400](image/dht11-pinout.jpg)
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Environmental Monitoring:** ສ້າງລະບົບຕິດຕາມສະພາບແວດລ້ອມໃນເຮືອນ ຫຼື ສວນ.
@@ -290,7 +290,7 @@ ___
 	- ເຊື່ອມຕໍ່ກັບຂາ **Analog Input** (A0-A5) ຂອງ Arduino.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|400](lm35.jpeg )
+	![|400](image/lm35.jpeg )
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Precision Temperature Gauge:** ສ້າງເຄື່ອງວັດອຸນຫະພູມທີ່ສະແດງຜົນໃນຈໍ LCD ດ້ວຍຄວາມລະອຽດສູງ.
@@ -303,9 +303,9 @@ ___
 	- **ຂໍ້ສັງເກດ:** ມັນແຕກຕ່າງຈາກ Accelerometer (ເຊັນເຊີວັດຄວາມເລັ່ງ), ເຊິ່ງວັດມຸມອຽງທີ່ຊັດເຈນ. Tilt Sensor ພຽງແຕ່ບອກວ່າ "ອຽງ" ຫຼື "ບໍ່ອຽງ".
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|400](tilt_sensor.jpeg)
+	![|400](image/tilt_sensor.jpeg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![|400](tilt-sensor-module-pinout-1.jpg )
+	![|400](image/tilt-sensor-module-pinout-1.jpg )
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Motion Detector:** ໃຊ້ເພື່ອກວດພົບວ່າວັດຖຸຖືກຍົກຂຶ້ນ ຫຼື ວາງລົງ.
 	- **Security Alarm:** ຕິດຕັ້ງໃສ່ປ່ອງຢ້ຽມ ຫຼື ປະຕູ ເພື່ອສົ່ງສັນຍານເຕືອນເມື່ອມີການເຄື່ອນໄຫວ/ເປີດ.
@@ -319,7 +319,7 @@ ___
 	- **ການເຊື່ອມຕໍ່:** ມັນຕ້ອງຖືກໃຊ້ເປັນສ່ວນໜຶ່ງຂອງ **Voltage Divider** (ຕໍ່ອະນຸກົມກັບຕົວຕ້ານທານຄົງທີ່, ເຊັ່ນ: $10k\Omega$) ເພື່ອຜະລິດສັນຍານແຮງດັນອະນາລັອກທີ່ປ່ຽນແປງໄດ້ໃຫ້ Arduino ອ່ານຄ່າຜ່ານຂາ Analog Input.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|600](PhotoresistorLDRsx3.png) 
+	![|600](image/PhotoresistorLDRsx3.png) 
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Automatic Night Light:** ຖ້າຄ່າແສງຕ່ຳກວ່າທີ່ກຳນົດ, ໃຫ້ເປີດໄຟ LED.
@@ -332,7 +332,7 @@ ___
 	- ມັນເປັນອຸປະກອນ Input ທີ່ໃຫ້ຜົນລັບພຽງສອງສະຖານະຄື: **ກວດພົບ** (HIGH) ຫຼື **ບໍ່ກວດພົບ** (LOW).
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![pir |400](PIR.png)
+	![pir |400](image/PIR.png)
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Security Alarm:** ສັ່ງການ Buzzer ເຕືອນເມື່ອກວດພົບການເຄື່ອນໄຫວ.
@@ -346,7 +346,7 @@ ___
 	- **ການຄຳນວນໄລຍະທາງ:** ໄລຍະທາງ (Distance) = $\frac{\text{Speed of sound} \times t}{2}$.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|600](ultrasonic-sensor-diagram.jpg )
+	![|600](image/ultrasonic-sensor-diagram.jpg )
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Obstacle Avoidance Robot:** ຫຸ່ນຍົນໃຊ້ກວດຈັບສິ່ງກີດຂວາງ.
@@ -360,7 +360,7 @@ ___
 	- **DOUT:** ໃຊ້ສຳລັບການກວດຈັບສຽງທີ່ມີຄວາມດັງສູງ (ເຊັ່ນ: ສຽງຕົບມື). ເຊື່ອມຕໍ່ກັບຂາ Digital.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|600](soundsensor-pinoutput-1.jpg)
+	![|600](image/soundsensor-pinoutput-1.jpg)
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Clap Switch:** ເປີດ/ປິດໄຟດ້ວຍການຕົບມື.
@@ -373,7 +373,7 @@ ___
 	- **ການເຊື່ອມຕໍ່:** ໃຊ້ AOUT ສໍາລັບການວັດແທກລະດັບ/ປະລິມານ, ແລະ DOUT ສໍາລັບການກວດຈັບວ່າມີນ້ຳແນ່ນອນບໍ່.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|600](Water-Level-Sensor-Pinout.jpg )
+	![|600](image/Water-Level-Sensor-Pinout.jpg )
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Rain Alarm:** ສັ່ງການ Buzzer ເຕືອນເມື່ອກວດພົບນ້ຳຝົນ.
@@ -387,7 +387,7 @@ ___
 	- **ການເຊື່ອມຕໍ່:** ໃຊ້ DOUT ເພື່ອເປີດ/ປິດສັນຍານເຕືອນໄພແບບງ່າຍໆ. ໃຊ້ AOUT ເພື່ອວັດແທກຄວາມເຂັ້ມຂອງແປວໄຟ (ເຊັ່ນ: ເພື່ອກຳນົດໄລຍະຫ່າງ).
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|600](flame_sejsor.jpg)
+	![|600](image/flame_sejsor.jpg)
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Fire Alarm System:** ສັ່ງການ Buzzer ເຕືອນໄພໄໝ້.
@@ -401,7 +401,7 @@ ___
 	- **ຂໍ້ຄວນລະວັງ:** RC522 ໃຊ້ໄຟ $3.3\text{V}$. ຖ້າເຊື່ອມຕໍ່ກັບ $5\text{V}$ ໂດຍກົງອາດເຮັດໃຫ້ໂມດູນເສຍຫາຍໄດ້.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|600](RC522-RFID-Reader-Module-Pinout.jpg )
+	![|600](image/RC522-RFID-Reader-Module-Pinout.jpg )
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Access Control:** ລະບົບເປີດ/ປິດປະຕູດ້ວຍບັດ.
@@ -413,7 +413,7 @@ ___
 	- **ຫຼັກການ (Passive Tag):** ບໍ່ມີແບັດເຕີຣີໃນຕົວ. ມັນໄດ້ຮັບພະລັງງານຜ່ານການເໜັງນຳ (Inductive Coupling) ຈາກສະໜາມແມ່ເຫຼັກໄຟຟ້າທີ່ປ່ອຍອອກມາຈາກ RFID Reader (ເຊັ່ນ: RC522). ເມື່ອໄດ້ຮັບພະລັງງານພຽງພໍ, ມັນຈະເປີດໃຊ້ງານ Chip ແລະ ສົ່ງຂໍ້ມູນທີ່ເກັບໄວ້ (ເຊັ່ນ: UID) ກັບຄືນໄປຫາ Reader ຜ່ານຄື້ນວິທະຍຸ.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|600](rfid_tah.jpg)
+	![|600](image/rfid_tah.jpg)
 	
 	**ປະເພດຂອງ Tag:**
 	1. **Passive Tag (Tags ທີ່ບໍ່ມີແບັດເຕີຣີ):** ຖືກໃຊ້ຫຼາຍທີ່ສຸດໃນໂຄງການ Arduino (ເຊັ່ນ: ບັດ MIFARE S50). ໃຊ້ພະລັງງານຈາກ Reader ເທົ່ານັ້ນ.
@@ -427,7 +427,7 @@ ___
 	- **Arduino Library:** ປົກກະຕິແລ້ວຕ້ອງໃຊ້ **IR remote Library** ເພື່ອໃຫ້ Arduino ສາມາດແປຄ່າລະຫັດ hexadecimal ທີ່ໄດ້ຮັບຈາກແຕ່ລະປຸ່ມກົດເທິງຣີໂມດ.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|500](infrared_reciever.png )
+	![|500](image/infrared_reciever.png )
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Home Automation:** ຄວບຄຸມໄຟ, ພັດລົມ, ຫຼື ມໍເຕີດ້ວຍຣີໂມດໂທລະພາບເກົ່າ.
@@ -442,7 +442,7 @@ ___
 	- **ຫຼັກການ:** ຣີໂມດ (Transmitter) ຈະສົ່ງສັນຍານໂດຍການປ່ອຍແສງ IR ທີ່ມີ **ລະຫັດ Pulse** ສະເພາະຂອງປຸ່ມທີ່ກົດ. ໂມດູນຮັບ (Receiver) ເຊັ່ນ **VS1838B** ຈະແປລະຫັດນັ້ນ ແລະ ສົ່ງຄ່າດິຈິຕອລທີ່ສອດຄ່ອງກັນໄປໃຫ້ Arduino.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|500](infrared_remote_control_1.jpg)
+	![|500](image/infrared_remote_control_1.jpg)
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- ຄວບຄຸມໄຟ, ພັດລົມ, ຫຼື ມໍເຕີຈາກໄລຍະໄກ.
@@ -455,9 +455,9 @@ ___
 	- **ປຸ່ມກົດ (SW):** ເຮັດວຽກເປັນປຸ່ມກົດດິຈິຕອລທໍາມະດາ.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|500](Joystick.jpg)
+	![|500](image/Joystick.jpg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![[Joystick_module.png|500]]
+	![[image/Joystick_module.png|500]]
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Robot Control:** ຄວບຄຸມການເຄື່ອນທີ່ ແລະ ທິດທາງຂອງຫຸ່ນຍົນ.
 	- **Game Controller:** ໃຊ້ເປັນເຄື່ອງຄວບຄຸມໃນເກມແບບງ່າຍໆ.
@@ -472,9 +472,9 @@ ___
 	    - ຕົວຢ່າງ: ຖ້າ Arduino ສົ່ງ $HIGH$ ໄປທີ່ Row 2, ແລະໄດ້ຮັບ $HIGH$ ຢູ່ Column 3, ມັນຈະຮູ້ວ່າປຸ່ມທີ່ຕັດກັນຢູ່ $(\text{Row } 2, \text{ Column } 3)$ ຖືກກົດ.
 	        
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|500](4x4-Matrix-16-Keypad-Keyboard-Module-16-Button-MCU-2__49960.jpg)
+	![|500](image/4x4-Matrix-16-Keypad-Keyboard-Module-16-Button-MCU-2__49960.jpg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![|500](4x4-Keyboard-Pinout.jpg)
+	![|500](image/4x4-Keyboard-Pinout.jpg)
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Security System:** ລະບົບປ້ອນລະຫັດຜ່ານ (Password/PIN) ເພື່ອເປີດປະຕູ.
 	- **Menu Navigation:** ການເລືອກຕົວເລືອກໃນຈໍສະແດງຜົນ.
@@ -486,7 +486,7 @@ ___
 	- **ຫຼັກການ:** Relay ເຮັດວຽກຄືກັບ **ສະວິດໄຟຟ້າ (Electromagnetic Switch)**. Arduino ສົ່ງສັນຍານໄປກະຕຸ້ນ Coil ຂອງ Relay, ເຊິ່ງຈະສ້າງສະໜາມແມ່ເຫຼັກເພື່ອດຶງໜີບສະວິດ, ເຮັດໃຫ້ວົງຈອນໄຟຟ້າແຮງສູງ (ເຊັ່ນ: ໄຟເຮືອນ) ເປີດ ຫຼື ປິດໄດ້ຢ່າງປອດໄພ.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|500](relay.jpg)
+	![|500](image/relay.jpg)
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	ຄວບຄຸມເຄື່ອງໃຊ້ໄຟຟ້າໃນເຮືອນ (ເຊັ່ນ: ໂຄມໄຟ, ປໍ້ານໍ້າ) ດ້ວຍ Arduino.
@@ -503,7 +503,7 @@ ___
 	    - Pulse Width $2.0\text{ms}$ ໝາຍເຖິງ ມຸມ $180^\circ$ (ໂດຍປະມານ).
 	        
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|500](Servo-motor-pinout.jpg )
+	![|500](image/Servo-motor-pinout.jpg )
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Robotic Arm:** ຄວບຄຸມຂໍ້ຕໍ່ຂອງແຂນກົນ.
@@ -517,9 +517,9 @@ ___
 	- **ຫຼັກການ:** Arduino ຈະສົ່ງສັນຍານ Digital ໄປຫາ Driver Board ຕາມ **ລໍາດັບ Pulse (Sequencing)** ທີ່ກຳນົດໄວ້. ລໍາດັບນີ້ຈະກະຕຸ້ນ Coil ຂອງມໍເຕີເທື່ອລະ Coil, ເຊິ່ງເຮັດໃຫ້ແກນມໍເຕີ "ກ້າວ" ໄປໃນມຸມທີ່ກຳນົດໄວ້ຢ່າງຊັດເຈນ.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|400](Stepper_motor.jpg )
+	![|400](image/Stepper_motor.jpg )
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![|400](Stepper_motor_pin.png)
+	![|400](image/Stepper_motor_pin.png)
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **3D Printers & CNC:** ການເຄື່ອນທີ່ຂອງແກນ $X, Y, Z$ ທີ່ຕ້ອງການຄວາມຊັດເຈນສູງ.
 	- **Camera Platforms:** ຄວບຄຸມການຫັນມຸມຂອງກ້ອງຖ່າຍຮູບ.
@@ -533,9 +533,9 @@ ___
 	2. **ແຍກການເຊື່ອມຕໍ່:** ປົກປ້ອງ Digital Pins ຂອງ Arduino ຈາກການກັບຄືນຂອງກະແສໄຟຟ້າຈາກມໍເຕີ.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|500](Stepper_motor_drive_board.jpeg)
+	![|500](image/Stepper_motor_drive_board.jpeg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![|600](700px-Stepper_schematic.jpg )
+	![|600](image/700px-Stepper_schematic.jpg )
 	**ຕົວຢ່າງການນຳໃຊ້ :**
 	ຄວບຄຸມມໍເຕີໃຫ້ໝູນມຸມສະເພາະ
 
@@ -547,7 +547,7 @@ ___
 	- **ຫຼັກການ:** ມັນມີວົງຈອນ Oscillator ແລະ Counter ພາຍໃນທີ່ຮັກສາເວລາໄວ້ເຖິງແມ່ນວ່າ Arduino ຈະຖືກປິດ. ມັນເກັບກຳຂໍ້ມູນ ເຊັ່ນ: ວິນາທີ, ນາທີ, ຊົ່ວໂມງ, ມື້, ວັນທີ, ເດືອນ, ແລະ ປີ. Arduino ສື່ສານກັບມັນຜ່ານການເຊື່ອມຕໍ່ແບບ 3 ສາຍ ເພື່ອອ່ານ ແລະ ຕັ້ງຄ່າເວລາ.
 	    
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|500](Realtime_Clock_module.jpeg)
+	![|500](image/Realtime_Clock_module.jpeg)
 	
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **Data Logging:** ບັນທຶກເວລາຂອງເຫດການຕ່າງໆ.
@@ -564,9 +564,9 @@ ___
 	**STCP (Storage Register Clock)** ຂາ Clock ທີ່ໃຊ້ໃນການສະແດງຜົນ Output.
 	**Q0 - Q7** Output Pins (8 ຕົວ).
 	**ຮູບພາບອຸປະກອນຕົວຈິງ:** 
-	![|500](74HC595-Shift-Register.jpg)
+	![|500](image/74HC595-Shift-Register.jpg)
 	**ຮູບອຸປະກອນແບບ Schematic Diagram:**
-	![|600](74HC595_chip_schematic.jpg)
+	![|600](image/74HC595_chip_schematic.jpg)
 	**ຕົວຢ່າງການນຳໃຊ້:**
 	- **LED Matrix/Bar:** ຄວບຄຸມໄຟ LED ຈໍານວນຫຼາຍ (16, 24, 32 ດອກ ຫຼືຫຼາຍກວ່ານັ້ນ) ດ້ວຍຈໍານວນ Pin ທີ່ຈໍາກັດ.
 	- **7-Segment Display:** ຄວບຄຸມ 7-Segment Display ຫຼາຍຕົວພ້ອມກັນ.
